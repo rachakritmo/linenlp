@@ -14,7 +14,7 @@ def webhook():
         Reply_token=payload['events'][0]['replyToken']
         message=payload['events'][0]['message']['text']
         if "ขายอะไร" in message:
-            Reply_text="- กาแฟ และเครื่องดื่มค่ะ เช่น\n- คาปูชิโน่\n- ลาเต้\n- อเมริกาโน่\n - ชาไทย"
+            Reply_text="- กาแฟ และเครื่องดื่มค่ะ เช่น\n- คาปูชิโน่\n- ลาเต้\n- อเมริกาโน่\n - ชาไทย -ชานมไข่มุก"
         elif "สวัสดี" in message:
             Reply_text="สวัสดีค่ะ"
         else:
